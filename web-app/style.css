@@ -1,0 +1,136 @@
+body {
+     background: url(images/14.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Secular One", Arial, serif;
+    font-size: 8px;
+    color: #e9e9e9;
+    line-height: 13px;
+	margin:0;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+ /* search box */
+ input[type=text] {
+    width: 70%;
+	position: relative;
+    left: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	color: #525455;
+	margin-bottom: 12px;
+	margin-top: 12px;
+    background-color: #e6e6e6;
+    background-image: url('searchicon.png'); 
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+ input[type=text1] {
+    width: 75%;
+	position: relative;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	color: #525455;
+	margin-bottom: 12px;
+	margin-top: 12px;
+    background-color: #e6e6e6;
+    padding: 12px 20px 12px 40px;
+ }
+
+.buton{
+	border-style:none;
+	position: relative;
+	margin-left: -10px;
+/* 	color: black; */
+/* 	background-color: #e6e6e6; */
+    padding: 15px 20px 11px 10px;
+}
+
+buttonadmin{
+	margin-left: 10px;
+}
+/* üst ikon tanýmlamalarý */
+
+.icon-bar {
+    width: 100%;
+    text-align: center;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    width: 16.666%;
+    padding: 6px 0;
+    float: left;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 24px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #0099CC !important;
+}
+.sol {
+	float: left;
+	width: 350px;
+	height: 100%;
+	background-color: black;
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+.sag {
+	float: left;
+	width: calc(100% - 350px);
+	height: 100%;
+	background-color:rgba(255,255,255,0.6);
+	word-wrap: break-word;
+	overflow:auto;
+}
+
+.icerik {
+	margin-left: 10px;
+	margin-top: 20px;
+	color: black;
+}
+
+.active{
+	background: none;
+}
+
+.agac{
+	background-color:rgba(255,255,255,0.2);
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.sagayasla{
+	float: right;
+}
+
+.aramasonuc{
+	background-color:rgba(55,25,55,0);
+}
+
+.icerikBilgileri{
+	color: #000000;
+}
+.baslikBilgileri{
+	color: #000063;
+}

@@ -1,0 +1,2 @@
+Uygulamanýn tam olarak çalýþabilmesi için "grails" programý ile açýlmasý lazým.
+Ikon kütüphanesi, font tipi, aðaç kütüphanesi ve JQuery internetten çekilmektedir. Projenin açýldýðý bilgisayarda internet baðlantýsý olmasý gerekmektedir.
